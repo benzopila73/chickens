@@ -6,6 +6,32 @@
     <link rel="icon" href="https://user-images.githubusercontent.com/52249052/117655651-2d2e3080-b1b9-11eb-803f-f1210c0131e6.png">
     <link rel="stylesheet" href="style.css">
     <title>Chickens</title>
+    <style>
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            margin: 20px 0;
+        }
+        .comparison-table th {
+            background-color: #f2f2f2;
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+            font-weight: bold;
+        }
+        .comparison-table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+        .type-brown { background-color: #f5e1c8; }
+        .type-white { background-color: #f8f8f8; }
+        .type-speckled { background-color: #e8f4e8; }
+        .type-black { background-color: #e8e8e8; }
+        .param-name { font-weight: bold; background-color: #f0f0f0; }
+        .highlight { background-color: #fffacd; }
+    </style>
 </head>
 <body>
     <table><tr width="50%"><td width="50%">
@@ -200,6 +226,120 @@
 Итог: Черные несушки — это выбор для целенаправленного и основательного птицеводства. Это не просто "яичная машина", а фундамент хозяйства. Они сочетают в себе эффектную внешность, крепкое здоровье, самодостаточность (способность к разведению) и баланс между яйцом и мясом. Идеальны для тех, кто ценит аутентичность, надежность и универсальность.</p>
    
     </td></tr></table>
+<table class="comparison-table">
+    <tr>
+        <th>Параметр</th>
+        <th class="type-brown">Коричневые
+(Ломан Браун)</th>
+        <th class="type-white">Белые
+(Хайсекс Уайт)</th>
+        <th class="type-speckled">Пёстрые
+(Доминант)</th>
+        <th class="type-black">Чёрные
+(Австралорп)</th>
+    </tr>
+    <tr>
+        <td class="param-name">Тип</td>
+        <td class="type-brown">Промышленный кросс</td>
+        <td class="type-white">Промышленный кросс</td>
+        <td class="type-speckled">Кросс/Порода</td>
+        <td class="type-black">Порода</td>
+    </tr>
+    <tr>
+        <td class="param-name">Яйценоскость (шт/год)</td>
+        <td class="type-brown">310-350</td>
+        <td class="type-white highlight">320-370</td>
+        <td class="type-speckled">250-310</td>
+        <td class="type-black">200-280</td>
+    </tr>
+    <tr>
+        <td class="param-name">Вес яйца (г)</td>
+        <td class="type-brown">60-65</td>
+        <td class="type-white">60-65</td>
+        <td class="type-speckled">60-65</td>
+        <td class="type-black">55-70</td>
+    </tr>
+    <tr>
+        <td class="param-name">Цвет скорлупы</td>
+        <td class="type-brown">Коричневый</td>
+        <td class="type-white">Белый</td>
+        <td class="type-speckled">Коричневый</td>
+        <td class="type-black">Коричневый/Белый</td>
+    </tr>
+    <tr>
+        <td class="param-name">Начало яйцекладки</td>
+        <td class="type-brown">4-4,5 мес</td>
+        <td class="type-white">4-4,5 мес</td>
+        <td class="type-speckled">5-6 мес</td>
+        <td class="type-black">5-6,5 мес</td>
+    </tr>
+    <tr>
+        <td class="param-name">Вес взрослой птицы (кг)</td>
+        <td class="type-brown">1,8-2,2</td>
+        <td class="type-white">1,5-1,8</td>
+        <td class="type-speckled">2,2-3,0</td>
+        <td class="type-black">2,5-3,5</td>
+    </tr>
+    <tr>
+        <td class="param-name">Темперамент</td>
+        <td class="type-brown">Спокойный, дружелюбный</td>
+        <td class="type-white">Активный, пугливый</td>
+        <td class="type-speckled">Спокойный, флегматичный</td>
+        <td class="type-black">Спокойный, уверенный</td>
+    </tr>
+    <tr>
+        <td class="param-name">Инстинкт насиживания</td>
+        <td class="type-brown">Отсутствует</td>
+        <td class="type-white">Отсутствует</td>
+        <td class="type-speckled">Сохранён</td>
+        <td class="type-black">Хорошо развит</td>
+    </tr>
+    <tr>
+        <td class="param-name">Возможность разведения</td>
+        <td class="type-brown">Невозможно</td>
+        <td class="type-white">Невозможно</td>
+        <td class="type-speckled">Возможно</td>
+        <td class="type-black">Отлично передают признаки</td>
+    </tr>
+    <tr>
+        <td class="param-name">Условия содержания</td>
+        <td class="type-brown">Неприхотливы</td>
+        <td class="type-white">Требовательны к условиям</td>
+        <td class="type-speckled">Неприхотливы, морозоустойчивы</td>
+        <td class="type-black">Очень выносливы, морозоустойчивы</td>
+    </tr>
+    <tr>
+        <td class="param-name">Экономичность</td>
+        <td class="type-brown">Высокая</td>
+        <td class="type-white highlight">Самая высокая</td>
+        <td class="type-speckled">Экономичные</td>
+        <td class="type-black">Эффективно используют корм</td>
+    </tr>
+    <tr>
+        <td class="param-name">Основное преимущество</td>
+        <td class="type-brown">Стабильная яйцекладка</td>
+        <td class="type-white">Максимальная яйценоскость</td>
+        <td class="type-speckled">Универсальность и характер</td>
+        <td class="type-black">Сбалансированность и качество</td>
+    </tr>
+    <tr>
+        <td class="param-name">Недостатки</td>
+        <td class="type-brown">Невозможность разведения</td>
+        <td class="type-white">Нервозность, требовательность</td>
+        <td class="type-speckled">-</td>
+        <td class="type-black">-</td>
+    </tr>
+    <tr>
+        <td class="param-name">Рекомендация</td>
+        <td class="type-brown">Для начинающих</td>
+        <td class="type-white">Для опытных</td>
+        <td class="type-speckled">Для частных подворий</td>
+        <td class="type-black">Для основательного хозяйства</td>
+    </tr>
+</table>
+
+</body>
+</html>
     <footer><div class="footer-text"><strong>&copy;2025 Полковников Кирилл</strong><br>Сайт создан с использованием HTML и CSS<br><br>Версия сайта: V1.1</div></footer>
 </body>
 </html>
